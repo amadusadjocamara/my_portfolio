@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Amadu S Camara</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="header-content">
+                <h1>Amadu S Camara!</h1>
+                <h2>Hacker</h2>
+            </div>
+            <div class="profile-image" >
+                <img src="image/asc.jpg" alt="">
+            </div>
+        </div>
+        <div class="burger-menu" onclick="toggleNav()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <div class="nav-links">
+            <a href="#">Linkedin</a>
+            <a href="#">GitHub</a>
+            <a href="#">Twitter</a>
+            <a href="#">Facebook</a>
+        </div>
+        <div class="buttons">
+            <button>Long</button>
+            <button>Short</button>
+        </div>
+        <div class="content">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur blanditiis id aliquam quos suscipit nihil quam, porro illo voluptate in itaque voluptates distinctio cum voluptatibus voluptatem dolores ad doloribus dicta!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam reiciendis cumque saepe nesciunt possimus eius molestias et quod facere labore sapiente dignissimos, quibusdam minus voluptate dolore distinctio quia magni accusamus?
+            </p>
+        </div>
+        <div>
+            <form action="" class="form1">
+                <h2>Talk to me</h2>
+                <input type="text" name="name" id="idname" placeholder="Enter your name"><br>
+                <input type="email" name="email" id="idemail" placeholder="Enter your email"><br>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Text"></textarea>
+                <input type="submit" value="Send">
+            </form>
+        </div>
+    </div>
+    <script > 
+        function toggleNav() {
+    var navLinks = document.querySelector('.nav-links');
+    navLinks.classList.toggle('show');
+}
+
+    
+    </script>
+</body>
+</html>

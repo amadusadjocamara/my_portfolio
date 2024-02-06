@@ -1,0 +1,150 @@
+body {
+    font-family: "iA Writer Mono", monospace;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: 50px auto;
+    padding: 10px;
+    max-width: 650px;
+}
+
+.container {
+    max-width: 800px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-content {
+    text-align: center;
+    margin: 80px;
+    margin-bottom: 20px;
+}
+
+.profile-image img {
+    border-radius: 50%; /* Make the image circular */
+    width: 250px; /* Set the desired width */
+}
+
+.burger-menu {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.burger-menu .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    margin: 5px 0;
+}
+
+.nav-links {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.nav-links a {
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.buttons {
+    margin-top: 20px;
+    text-align: center;
+    width: 120px;
+    height: 30px;
+    background: transparent;
+    border: 2px solid var(--gray);
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: var(--gray);
+    font-size: 1rem;
+    overflow: auto;
+    transition: 0.4s ease all;
+
+    
+}
+div p{
+    font-size: 1.3pc;
+}
+
+.content {
+    text-align: justify;
+}
+
+@media screen and (max-width: 600px) {
+    .header {
+        flex-direction: column;
+    }
+
+    .burger-menu {
+        display: flex;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-links.show {
+        display: flex;
+        margin-top: 10px;
+    }
+
+    .nav-links.show a {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+/* Apply basic styling to the form container */
+.form1{
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the form heading */
+h2 {
+    color: #333;
+    text-align: center;
+}
+
+/* Style the form inputs and textarea */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Apply some additional styling for better visual feedback */
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    outline: none;
+    border-color: #007bff; /* Change to your preferred focus color */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Change to your preferred focus shadow */
+}
+
+/* Style the form button if you have one */
+/* Add your button selector and styles here */
+
+/* Additional styling can be added as needed */
+
