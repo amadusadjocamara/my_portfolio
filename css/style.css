@@ -2,6 +2,8 @@ body {
     font-family: "iA Writer Mono", monospace;
     margin: 0;
     padding: 0;
+    background-color: #333;
+    color: white;
 }
 .container{
     margin: 50px auto;
@@ -27,7 +29,7 @@ body {
 
 .profile-image img {
     border-radius: 50%; /* Make the image circular */
-    width: 250px; /* Set the desired width */
+    width: 200px; /* Set the desired width */
 }
 
 .burger-menu {
@@ -71,7 +73,7 @@ body {
     
 }
 div p{
-    font-size: 1.3pc;
+    font-size: 1pc;
 }
 
 .content {
@@ -105,7 +107,7 @@ div p{
 }
 /* Apply basic styling to the form container */
 .form1{
-    max-width: 400px;
+    max-width: 300px;
     margin: 0 auto;
     padding: 20px;
     border: 1px solid #ccc;
